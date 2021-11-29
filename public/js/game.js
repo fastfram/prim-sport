@@ -1,7 +1,7 @@
 $(function() {
     if (!sessionStorage.getItem('token')) {
         alert('กรุณาเข้าสู่ระแบบก่อน.')
-        location.href = 'https://member.ufarec.com/login'
+        location.href = 'https://bit.ly/3FfOYi4'
     }
 
     axios.defaults.headers.common['Authorization'] = sessionStorage.getItem('token');
@@ -29,7 +29,7 @@ function isLine() {
 
 async function saGame() {
 
-    let uri = 'https://member.ufarec.com/login/';
+    let uri = 'https://bit.ly/3FfOYi4/';
 
     if (isMobile()) {
         uri = uri + 'MB'
@@ -77,7 +77,7 @@ async function saGame() {
 
 async function ag() {
 
-    let uri = 'https://member.ufarec.com/login';
+    let uri = 'https://bit.ly/3FfOYi4';
 
     if (isMobile()) {
         uri = uri + 'MB'
@@ -125,7 +125,7 @@ async function ag() {
 
 async function dream() {
 
-    let uri = 'https://member.ufarec.com/login';
+    let uri = 'https://bit.ly/3FfOYi4';
 
     if (isMobile()) {
         uri = uri + 'MB'
@@ -172,7 +172,7 @@ async function dream() {
 
 async function sexy() {
 
-    let uri = 'https://member.ufarec.com/login';
+    let uri = 'https://bit.ly/3FfOYi4';
 
     if (isMobile()) {
         uri = uri + 'MB'
@@ -219,7 +219,7 @@ async function sexy() {
 
 async function pretty() {
 
-    let uri = 'https://member.ufarec.com/login';
+    let uri = 'https://bit.ly/3FfOYi4';
 
     if (isMobile()) {
         uri = uri + 'MB'
